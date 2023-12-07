@@ -47,3 +47,7 @@ const AIRDROP_AMOUNT = 1 * LAMPORTS_PER_SOL; // 1 SOL
     console.log(`Tx Complete: https://explorer.solana.com/tx/${signature}?cluster=devnet`)
 })();
 ```
+
+## Execute Smart contract
+1.- cargo build-bpf
+2.- solana program deploy program.so
