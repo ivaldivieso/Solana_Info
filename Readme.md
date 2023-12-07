@@ -50,6 +50,6 @@ const AIRDROP_AMOUNT = 1 * LAMPORTS_PER_SOL; // 1 SOL
 
 ## Execute Smart contract
 
-1- cargo build-bpf  < this generate a file with extension .so
-2- solana program deploy program.so  < what is a contract is a certly work 
-3- Error if you don't has funds > Error: Account 4bWiPgCsTdbgtu3WZokG9rh5gVUQpPHFDVLVPd3Eq45U has insufficient funds for spend (0.48122136 SOL) + fee (0.00036 SOL)
+1. cargo build-bpf  < this generate a file with extension .so
+2. solana program deploy program.so  < what is a contract is a certly work 
+3. Error if you don't has funds > Error: Account 4bWiPgCsTdbgtu3WZokG9rh5gVUQpPHFDVLVPd3Eq45U has insufficient funds for spend (0.48122136 SOL) + fee (0.00036 SOL)
