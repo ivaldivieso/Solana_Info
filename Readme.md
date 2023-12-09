@@ -68,3 +68,9 @@ const AIRDROP_AMOUNT = 1 * LAMPORTS_PER_SOL; // 1 SOL
 - SC08:2023 - Insecure Randomness
 - SC09:2023 - Gas Limit Vulnerabilities
 - SC10:2023 - Unchecked External Calls
+
+## Execute rs files
+You can execute this files without extension with:
+```
+ cargo run --bin level0
+```
