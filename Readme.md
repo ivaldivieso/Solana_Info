@@ -47,19 +47,6 @@ const AIRDROP_AMOUNT = 1 * LAMPORTS_PER_SOL; // 1 SOL
     console.log(`Tx Complete: https://explorer.solana.com/tx/${signature}?cluster=devnet`)
 })();
 ```
-## OWASP TOP 10 Smart contract
-
-SC01:2023 - Reentrancy Attacks
-SC02:2023 - Integer Overflow and Underflow
-SC03:2023 - Timestamp Dependence
-SC04:2023 - Access Control Vulnerabilities
-SC05:2023 - Front-running Attacks
-SC06:2023 - Denial of Service (DoS) Attacks
-SC07:2023 - Logic Errors
-SC08:2023 - Insecure Randomness
-SC09:2023 - Gas Limit Vulnerabilities
-SC10:2023 - Unchecked External Calls
-
 
 
 ## Execute Smart contract
@@ -67,3 +54,17 @@ SC10:2023 - Unchecked External Calls
 1. cargo build-bpf  < this generate a file with extension .so
 2. solana program deploy program.so  < what is a contract is a certly work 
 3. Error if you don't has funds > Error: Account 4bWiPgCsTdbgtu3WZokG9rh5gVUQpPHFDVLVPd3Eq45U has insufficient funds for spend (0.48122136 SOL) + fee (0.00036 SOL)
+
+
+## OWASP TOP 10 Smart contract
+
+- SC01:2023 - Reentrancy Attacks
+- SC02:2023 - Integer Overflow and Underflow
+- SC03:2023 - Timestamp Dependence
+- SC04:2023 - Access Control Vulnerabilities
+- SC05:2023 - Front-running Attacks
+- SC06:2023 - Denial of Service (DoS) Attacks
+- SC07:2023 - Logic Errors
+- SC08:2023 - Insecure Randomness
+- SC09:2023 - Gas Limit Vulnerabilities
+- SC10:2023 - Unchecked External Calls
