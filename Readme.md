@@ -74,3 +74,7 @@ You can execute this files without extension with:
 ```
  cargo run --bin level0
 ```
+## Execute Smart Contract
+```
+solana program deploy <PROGRAM_FILEPATH>
+```
